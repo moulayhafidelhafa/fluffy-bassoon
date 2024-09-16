@@ -54,9 +54,9 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
+     - secretName: argo-demo-tls
+       hosts:
+         -  argo-demo.elhafa.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
